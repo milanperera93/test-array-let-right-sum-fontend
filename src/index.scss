@@ -1,0 +1,42 @@
+@font-face {
+  font-family: 'DINNextLTProLight';
+  src: url('./assets/fonts/DINNextLTPro-Light.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'DINNextLTPro';
+  src: url('./assets/fonts/DINNextLTPro-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'DINNextLTPro-Bold';
+  src: url('./assets/fonts/DINNextLTPro-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'DINNextLTPro-Medium';
+  src: url('./assets/fonts/DINNextLTPro-Medium.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'DINNextRoundedLTPro-Regular';
+  src: url('./assets/fonts/DINNextRoundedLTPro-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'DINNextRoundedLTPro-Medium';
+  src: url('./assets/fonts/DINNextRoundedLTPro-Medium.ttf') format('truetype');
+}
+
+body {
+  margin: 0;
+  font-family: 'DINNextLTPro';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
